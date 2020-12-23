@@ -36,9 +36,10 @@ public class JdbcExecuteQueryPractice01 {
     	}
     	
     	//7) a. Close the Statement   	b. Close the Connection  	c. Close the ResultSet
-    	rs1.close();
     	st.close();
     	con.close();
+    	rs1.close();
+    	rs2.close();
 
 	}
 

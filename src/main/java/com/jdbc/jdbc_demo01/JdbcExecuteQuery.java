@@ -32,6 +32,7 @@ public class JdbcExecuteQuery {
     	//7) a. Close the Statement   	b. Close the Connection 	c. Close the ResultSet	==> I closed the phone when I finished conversation
     	st.close();
     	con.close();
+    	rs.close();
     	
 
     }
